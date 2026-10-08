@@ -210,9 +210,19 @@
                     {
                       "tabId": "tab-1791474684609-6241w52",
                       "conversationId": "conv-1791474715975-21f6x8w4v"
+                    },
+                    {
+                      "tabId": "tab-1791475859937-wlhh9vd",
+                      "conversationId": null,
+                      "draftModel": "openai-codex/gpt-6.1-sol",
+                      "providerId": "codex"
+                    },
+                    {
+                      "tabId": "tab-1791475860166-a0yw2bh",
+                      "conversationId": "conv-1791475871909-ssc595mva"
                     }
                   ],
-                  "activeTabId": "tab-1791474684609-6241w52"
+                  "activeTabId": "tab-1791475860166-a0yw2bh"
                 }
               },
               "icon": "bot",
