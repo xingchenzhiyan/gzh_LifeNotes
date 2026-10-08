@@ -1,0 +1,10 @@
+{
+  "propertiesInDocument": "visible",
+  "showLineNumber": false,
+  "tabSize": 4,
+  "promptDelete": false,
+  "deleteUnlinkedAttachments": "always",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "_assets/image",
+  "newLinkFormat": "absolute"
+}

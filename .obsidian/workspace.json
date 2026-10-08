@@ -1,0 +1,304 @@
+{
+  "main": {
+    "id": "2c7878367555fad3",
+    "type": "split",
+    "children": [
+      {
+        "id": "84fd2e972b5ca82e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fa4c67b13df4d30",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20_选题/选题.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "选题"
+            }
+          },
+          {
+            "id": "13242c7f3bf75736",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10_对标/文风DNA编解码手册v3.0.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "文风DNA编解码手册v3.0"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a73650a0a907c634",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e106f06814404ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a873d987a2e5f16",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "63a530fca8a01a18",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byCreatedTime"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "4c3b8bafe632a124",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "246140d0f0322b45",
+    "type": "split",
+    "children": [
+      {
+        "id": "33e46b097da578bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a53ad47dcb827359",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "60_原文/20_专题/40_投资与财富/40_交易策略/20260210-这个很有用！半木夏的周期+流动性预期+技术形态交易框架，和一种全新的MACD 三背离形态。.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "21f5a4d194e21d37",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "c95158f04ff4b76f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": "1A"
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "c7c38d7f6675d355",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "551a99e6df052f4a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "10_对标/文风DNA编解码手册v3.0.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "32bc5b1533b3ce12",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "60_原文/20_专题/00_待处理/20260913-扒光视频号变现底牌：不露脸不做长视频，「泛流量资讯」账号的三大变现方式！.md"
+              },
+              "icon": "lucide-info",
+              "title": "笔记属性"
+            }
+          },
+          {
+            "id": "3ff16d6c9dd23179",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {
+                "tabWorkspace": {
+                  "version": 1,
+                  "openTabs": [
+                    {
+                      "tabId": "tab-1791474684609-6241w52",
+                      "conversationId": "conv-1791474715975-21f6x8w4v"
+                    }
+                  ],
+                  "activeTabId": "tab-1791474684609-6241w52"
+                }
+              },
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "813374907165b70c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 746.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "realclaudian:Open Claudian": false,
+      "obsidian-git:Open Git source control": false,
+      "hide-folders:Show hidden folders": false
+    }
+  },
+  "active": "813374907165b70c",
+  "lastOpenFiles": [
+    "10_对标/胖虎识财.md",
+    "10_对标/文风DNA编解码手册v3.0.md",
+    "30_创作内容/202610/20261008-那句话，你还放在心上吗.md",
+    "20_选题/选题.md",
+    "公众号-生活随笔SOP.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "30_创作内容/202610/20261008-想做的那件事，又搁了一年.md",
+    "00_待办.md",
+    "_assets/image/20261008-1791473009066.png",
+    "_assets/image/20261008-1791439856309.png",
+    "_assets/image/20261008-1791439856309.png.md",
+    "_assets/image/20261008-1791439701923.png",
+    "10_对标/胖虎识财图片/微信图片_2026-10-08_105727_709.png",
+    "10_对标/胖虎识财图片/微信图片_2026-10-08_105706_359.png",
+    "10_对标/胖虎识财图片/微信图片_2026-10-08_105657_190.png",
+    "10_对标/胖虎识财图片/微信图片_2026-10-08_105649_526.png",
+    "10_对标/胖虎识财图片/微信图片_2026-10-08_105640_164.png",
+    "10_对标/胖虎识财图片/微信图片_2026-10-08_105630_604.png",
+    "10_对标/胖虎识财图片/微信图片_2026-10-08_105620_668.png",
+    "10_对标/胖虎识财图片",
+    "30_创作内容/202610",
+    "20_选题/选题要求.md",
+    "胖虎识才.txt",
+    "20_选题",
+    "30_创作内容",
+    "选题",
+    "10_对标",
+    "欢迎.md",
+    "欢迎 1.md",
+    "111/222/未命名.md",
+    "111/222/_assets/image",
+    "111/222/_assets",
+    "111/222",
+    "TODO：待优化.md",
+    "70_Wiki/10_来源/内容创作与增长精选来源摘要.md",
+    "Pasted image 20261008112934.png.md",
+    "指令.md",
+    "60_原文/20_专题/20_内容与增长/20_公众号与写作/20260828-30个公众号S+新手起号赛道.md",
+    "40_笔记/10_交易投资/简要概述.md",
+    "40_笔记/20_自媒体/关于后续方向.md",
+    "40_笔记/20_自媒体/副业相关.md",
+    "60_原文/20_专题/_20261008/20261006-微信小绿书可能是最被低估的副业机会，我把从 0 到 1 全流程拆开了.md",
+    "60_原文/20_专题/_20261008/20261006-世界最强交易三冠王，德国交易员Patrick又把账户翻了三倍，他的PBD策略太精妙了，德国人的策略真是稳！！.md",
+    "60_原文/20_专题/_20261008/20261006-十万粉丝最残酷的真相：你可能连一单生意都没有.md",
+    "60_原文/20_专题/_20261008/20261006-三个月 440 万曝光，我的 X 爆款创作指南.md",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}
