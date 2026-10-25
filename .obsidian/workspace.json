@@ -215,11 +215,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 575.1666259765625
+    "width": 625.833251953125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,7 +235,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "813374907165b70c",
+  "active": "3ff16d6c9dd23179",
   "lastOpenFiles": [
     "_assets/image/20261025-1792936342996.png",
     "30_创作内容/202610/20261020-像供奉神明一样供奉自己.md",
