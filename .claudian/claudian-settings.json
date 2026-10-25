@@ -45,9 +45,9 @@
       "selectedModels": [
         {
           "value": "opus",
-          "label": "workbuddy/deepseek-v4.1-flash:high[1m]",
-          "description": "Custom Opus model (1M context)",
-          "resolvedModel": "workbuddy/deepseek-v4.1-flash:high[1m]",
+          "label": "codex/gpt-6.1-sol",
+          "description": "Custom Opus model",
+          "resolvedModel": "codex/gpt-6.1-sol",
           "reasoningMetadataResolved": true,
           "supportedEffortLevels": [
             "low",
@@ -68,9 +68,11 @@
       "modelAliases": {},
       "visibleModels": [
         "gpt-6.1-sol",
-        "workbuddy/deepseek-v4.1-flash",
-        "workbuddy/glm-5.3",
-        "workbuddy/kimi-k3-1"
+        "gpt-6-astra",
+        "gpt-6-luna",
+        "group/kimi-k3",
+        "group/glm-5.3",
+        "group/deepseek-v4-1-flash"
       ],
       "enableUltraEffort": false,
       "responseStyle": "none",
@@ -128,25 +130,43 @@
           "isDefault": true
         },
         {
-          "model": "workbuddy/deepseek-v4.1-flash",
-          "displayName": "Deepseek-V4.1-Flash · WorkBuddy",
-          "description": "Deepseek-V4.1-Flash · WorkBuddy via magpie",
+          "model": "gpt-6-astra",
+          "displayName": "GPT-6 Astra",
+          "description": "Frontier intelligence for the most demanding work.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
-              "description": ""
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "medium",
+              "description": "Balances speed and reasoning depth for everyday tasks"
             },
             {
               "value": "high",
-              "description": ""
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "xhigh",
+              "description": "Extra high reasoning depth for complex problems"
             },
             {
               "value": "max",
-              "description": ""
+              "description": "Maximum reasoning depth for the hardest problems"
+            },
+            {
+              "value": "ultra",
+              "description": "Maximum reasoning with automatic task delegation"
             }
           ],
-          "defaultReasoningEffort": "high",
-          "serviceTiers": [],
+          "defaultReasoningEffort": "low",
+          "serviceTiers": [
+            {
+              "id": "priority",
+              "name": "Fast",
+              "description": "2x speed, increased usage"
+            }
+          ],
           "defaultServiceTier": null,
           "inputModalities": [
             "text",
@@ -155,25 +175,39 @@
           "isDefault": false
         },
         {
-          "model": "workbuddy/glm-5.3",
-          "displayName": "GLM-5.3 · WorkBuddy",
-          "description": "GLM-5.3 · WorkBuddy via magpie",
+          "model": "gpt-6-luna",
+          "displayName": "GPT-6 Luna",
+          "description": "Fast and affordable model for easier tasks.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
-              "description": ""
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "medium",
+              "description": "Balances speed and reasoning depth for everyday tasks"
             },
             {
               "value": "high",
-              "description": ""
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "xhigh",
+              "description": "Extra high reasoning depth for complex problems"
             },
             {
               "value": "max",
-              "description": ""
+              "description": "Maximum reasoning depth for the hardest problems"
             }
           ],
-          "defaultReasoningEffort": "high",
-          "serviceTiers": [],
+          "defaultReasoningEffort": "medium",
+          "serviceTiers": [
+            {
+              "id": "priority",
+              "name": "Fast",
+              "description": "1.5x speed"
+            }
+          ],
           "defaultServiceTier": null,
           "inputModalities": [
             "text",
@@ -182,9 +216,9 @@
           "isDefault": false
         },
         {
-          "model": "workbuddy/kimi-k3-1",
-          "displayName": "Kimi-K3 · WorkBuddy",
-          "description": "Kimi-K3 · WorkBuddy via magpie",
+          "model": "group/kimi-k3",
+          "displayName": "Kimi K3 · routing group",
+          "description": "Kimi K3 · routing group via magpie",
           "supportedReasoningEfforts": [
             {
               "value": "low",
@@ -196,6 +230,52 @@
             },
             {
               "value": "xhigh",
+              "description": ""
+            }
+          ],
+          "defaultReasoningEffort": "high",
+          "serviceTiers": [],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": false
+        },
+        {
+          "model": "group/glm-5.3",
+          "displayName": "GLM 5.3 · routing group",
+          "description": "GLM 5.3 · routing group via magpie",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": ""
+            },
+            {
+              "value": "high",
+              "description": ""
+            },
+            {
+              "value": "max",
+              "description": ""
+            }
+          ],
+          "defaultReasoningEffort": "high",
+          "serviceTiers": [],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": false
+        },
+        {
+          "model": "group/deepseek-v4-1-flash",
+          "displayName": "Deepseek-V4-1-Flash · routing group",
+          "description": "Deepseek-V4-1-Flash · routing group via magpie",
+          "supportedReasoningEfforts": [
+            {
+              "value": "high",
               "description": ""
             }
           ],
@@ -272,7 +352,7 @@
     "codex": "medium"
   },
   "savedProviderServiceTier": {
-    "codex": "priority"
+    "codex": "default"
   },
   "savedProviderPermissionMode": {
     "claude": "auto",
@@ -293,6 +373,7 @@
   "skillsSynced": false,
   "sessionManagerOrganization": "list",
   "sessionManagerSort": "last-updated",
+  "projectSort": "last-updated",
   "sessionAutoArchiveAfter": "off",
   "pinnedLinkedContentPaths": [],
   "hiddenCommands": []

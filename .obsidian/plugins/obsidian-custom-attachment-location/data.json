@@ -41,8 +41,9 @@
   "shouldRenameCollectedAttachments": false,
   "shouldSetLinkDisplayTextToAttachmentFileName": false,
   "shouldSkipCollectingAttachmentsReferencedByRawPath": false,
+  "shouldWarnWhenOriginalAttachmentNameIsUnknown": true,
   "specialCharacters": "#^[]|*\\<>:?/",
   "specialCharactersReplacement": "-",
   "timeoutInSeconds": 5,
-  "version": "15.1.1"
+  "version": "17.0.0"
 }
