@@ -18,7 +18,7 @@
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
-  "requireCommandOrControlEnterToSend": false,
+  "requireCommandOrControlEnterToSend": true,
   "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
@@ -45,9 +45,9 @@
       "selectedModels": [
         {
           "value": "opus",
-          "label": "codex/gpt-6.1-sol",
-          "description": "Custom Opus model",
-          "resolvedModel": "codex/gpt-6.1-sol",
+          "label": "Opus",
+          "description": "Opus 5.5 · Best for everyday, complex tasks · $4/$20 per Mtok",
+          "resolvedModel": "claude-opus-5-5",
           "reasoningMetadataResolved": true,
           "supportedEffortLevels": [
             "low",
@@ -69,10 +69,8 @@
       "visibleModels": [
         "gpt-6.1-sol",
         "gpt-6-astra",
-        "gpt-6-luna",
-        "group/kimi-k3",
-        "group/glm-5.3",
-        "group/deepseek-v4-1-flash"
+        "gpt-6.1-terra",
+        "gpt-6-luna"
       ],
       "enableUltraEffort": false,
       "responseStyle": "none",
@@ -175,6 +173,51 @@
           "isDefault": false
         },
         {
+          "model": "gpt-6.1-terra",
+          "displayName": "GPT-6.1 Terra",
+          "description": "GPT-6.1 Terra Codex model.",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "medium",
+              "description": "Balances speed and reasoning depth for everyday tasks"
+            },
+            {
+              "value": "high",
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "xhigh",
+              "description": "Extra high reasoning depth for complex problems"
+            },
+            {
+              "value": "max",
+              "description": "Maximum reasoning depth for the hardest problems"
+            },
+            {
+              "value": "ultra",
+              "description": "Maximum reasoning with automatic task delegation"
+            }
+          ],
+          "defaultReasoningEffort": "low",
+          "serviceTiers": [
+            {
+              "id": "priority",
+              "name": "Fast",
+              "description": "1.5x speed"
+            }
+          ],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": false
+        },
+        {
           "model": "gpt-6-luna",
           "displayName": "GPT-6 Luna",
           "description": "Fast and affordable model for easier tasks.",
@@ -208,79 +251,6 @@
               "description": "1.5x speed"
             }
           ],
-          "defaultServiceTier": null,
-          "inputModalities": [
-            "text",
-            "image"
-          ],
-          "isDefault": false
-        },
-        {
-          "model": "group/kimi-k3",
-          "displayName": "Kimi K3 · routing group",
-          "description": "Kimi K3 · routing group via magpie",
-          "supportedReasoningEfforts": [
-            {
-              "value": "low",
-              "description": ""
-            },
-            {
-              "value": "high",
-              "description": ""
-            },
-            {
-              "value": "xhigh",
-              "description": ""
-            }
-          ],
-          "defaultReasoningEffort": "high",
-          "serviceTiers": [],
-          "defaultServiceTier": null,
-          "inputModalities": [
-            "text",
-            "image"
-          ],
-          "isDefault": false
-        },
-        {
-          "model": "group/glm-5.3",
-          "displayName": "GLM 5.3 · routing group",
-          "description": "GLM 5.3 · routing group via magpie",
-          "supportedReasoningEfforts": [
-            {
-              "value": "low",
-              "description": ""
-            },
-            {
-              "value": "high",
-              "description": ""
-            },
-            {
-              "value": "max",
-              "description": ""
-            }
-          ],
-          "defaultReasoningEffort": "high",
-          "serviceTiers": [],
-          "defaultServiceTier": null,
-          "inputModalities": [
-            "text",
-            "image"
-          ],
-          "isDefault": false
-        },
-        {
-          "model": "group/deepseek-v4-1-flash",
-          "displayName": "Deepseek-V4-1-Flash · routing group",
-          "description": "Deepseek-V4-1-Flash · routing group via magpie",
-          "supportedReasoningEfforts": [
-            {
-              "value": "high",
-              "description": ""
-            }
-          ],
-          "defaultReasoningEffort": "high",
-          "serviceTiers": [],
           "defaultServiceTier": null,
           "inputModalities": [
             "text",
@@ -349,7 +319,7 @@
     "codex": "openai-codex/gpt-6.1-sol"
   },
   "savedProviderEffort": {
-    "codex": "medium"
+    "codex": "high"
   },
   "savedProviderServiceTier": {
     "codex": "default"
@@ -360,7 +330,7 @@
   },
   "pendingProviderSessionInvalidations": {},
   "enableAutoScroll": true,
-  "showMessageTimestamps": false,
+  "showMessageTimestamps": true,
   "deferMathRenderingDuringStreaming": true,
   "pluginRenderedFenceLanguages": [],
   "expandFileEditsByDefault": false,
@@ -373,7 +343,6 @@
   "skillsSynced": false,
   "sessionManagerOrganization": "list",
   "sessionManagerSort": "last-updated",
-  "projectSort": "last-updated",
   "sessionAutoArchiveAfter": "off",
   "pinnedLinkedContentPaths": [],
   "hiddenCommands": []
