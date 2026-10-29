@@ -36,79 +36,9 @@
               "icon": "lucide-file",
               "title": "20261024-一定要运动，大量运动！尤其是 2026 下半年"
             }
-          },
-          {
-            "id": "9a8af8b219cbd89c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20_选题/新选题.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "新选题"
-            }
-          },
-          {
-            "id": "92e25de72e5945f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30_创作内容/202610/20261028-人到中年才懂：一个人对生活的掌控感，是从早上 6 点开始的.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20261028-人到中年才懂：一个人对生活的掌控感，是从早上 6 点开始的"
-            }
-          },
-          {
-            "id": "a9079b27d4389b30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30_创作内容/202610/20261025-你那么努力，到底是为了自己，还是为了不被别人比下去？.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20261025-你那么努力，到底是为了自己，还是为了不被别人比下去？"
-            }
-          },
-          {
-            "id": "3846b34fd1552cd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30_创作内容/202610/20261025-别人回复慢，不要总觉得自己说错了话.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20261025-别人回复慢，不要总觉得自己说错了话"
-            }
-          },
-          {
-            "id": "83ec3c5afd0867e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30_创作内容/202610/20261025-完成，比完美更重要.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20261025-完成，比完美更重要"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -278,11 +208,15 @@
                   "version": 1,
                   "openTabs": [
                     {
-                      "tabId": "tab-1793199025793-d3t2ekg",
-                      "conversationId": "conv-1793199065112-lwq14f9u3"
+                      "tabId": "tab-1793282501730-08vb9tp",
+                      "conversationId": "conv-1793282550629-b7t2p747e"
+                    },
+                    {
+                      "tabId": "tab-1793282553786-dsvpa1g",
+                      "conversationId": "conv-1793282597653-7pdeehmm5"
                     }
                   ],
-                  "activeTabId": "tab-1793199025793-d3t2ekg"
+                  "activeTabId": "tab-1793282553786-dsvpa1g"
                 }
               },
               "icon": "bot",
@@ -304,7 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 741.8333129882812
+    "width": 645.833251953125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -322,9 +256,13 @@
   },
   "active": "813374907165b70c",
   "lastOpenFiles": [
+    "30_创作内容/202610/20261029-下午三点，我一个人去了趟公园.md",
+    "_assets/image/20261029-1793282617260.png",
+    "30_创作内容/202610/20261029-夏天露腰怎么穿才不刻意？粉色吊带 + 牛仔裤就够了.md",
+    "_assets/image/20261029-1793282584880.png",
+    "30_创作内容/202610/20261028-人到中年才懂：一个人对生活的掌控感，是从早上 6 点开始的.md",
     "_assets/image/20261028-1793200541671.jpg",
     "20_选题/新选题.md",
-    "30_创作内容/202610/20261028-人到中年才懂：一个人对生活的掌控感，是从早上 6 点开始的.md",
     "_assets/image/20261028-1793199986296.png",
     "20_选题/选题.md",
     "提示词.md",
@@ -341,9 +279,6 @@
     "_assets/image/20261028-1793191110856.png",
     "_assets/image/20261028-1793190869326.png",
     "_assets/image/20261028-1793190451916.png",
-    "_assets/image/20261028-1793189980883.png",
-    "_assets/image/20261028-1793189793040.png",
-    "_assets/image/20261028-1793189589386.png",
     "30_创作内容/202610/20261025-别人回复慢，不要总觉得自己说错了话.md",
     "公众号-生活随笔SOP.md",
     "30_创作内容/202610/20261021-桂林山水，不虚此行.md",
@@ -357,7 +292,6 @@
     "30_创作内容/202610/20261013-好消息来了，你为什么不敢高兴？.md",
     "30_创作内容/202610/20261013-书读完就忘？恭喜你，这才是读书真正的意义.md",
     "30_创作内容/202610/20261013-一个人吃饭，也要认真摆好一双筷子.md",
-    "30_创作内容/202610/20261013-整理旧物时翻出一箱火车票，才发现我的生活早就变了.md",
     "10_对标/胖虎识财图片",
     "30_创作内容/202610",
     "胖虎识才.txt",
