@@ -28,45 +28,29 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20_选题/发布.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "pinned": true,
               "icon": "lucide-file",
-              "title": "发布"
+              "title": "新标签页"
             }
           },
           {
-            "id": "524cefd80cca461a",
+            "id": "84719f78ebed8801",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_选题/选题.md",
+                "file": "选题库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "选题"
-            }
-          },
-          {
-            "id": "f344f46ac73e4236",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_assets/02_图库/20261028-1793200541671.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "20261028-1793200541671"
+              "title": "选题库"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.8333435058594
+    "width": 322.8333435058594
   },
   "right": {
     "id": "246140d0f0322b45",
@@ -205,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_assets/02_图库/20261028-1793200541671.jpg",
+                "file": "选题库.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -236,11 +220,11 @@
                   "version": 1,
                   "openTabs": [
                     {
-                      "tabId": "tab-1793636138397-vmad4ky",
-                      "conversationId": "conv-1793636178070-1h8voqzv3"
+                      "tabId": "tab-1794645840056-sgafnrb",
+                      "conversationId": "conv-1794645842047-7ns9wmisf"
                     }
                   ],
-                  "activeTabId": "tab-1793636138397-vmad4ky"
+                  "activeTabId": "tab-1794645840056-sgafnrb"
                 }
               },
               "icon": "bot",
@@ -262,11 +246,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.833251953125
+    "width": 475.9029541015625
   },
   "left-ribbon": {
     "hiddenItems": {
-      "hide-folders:Hide hidden folders again": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -275,11 +258,30 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "realclaudian:Open Claudian": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "hide-folders:Hide hidden folders again": false
     }
   },
-  "active": "9a873d987a2e5f16",
+  "active": "813374907165b70c",
   "lastOpenFiles": [
+    "30_创作内容/202611/20261113-三十岁以后，我不再急着反驳别人.md",
+    "发布记录.md",
+    "30_创作内容/202611/20261108-绝大多数人在25到30岁，浪费了这辈子最值钱的五年.md",
+    "选题库.md",
+    "公众号写作SOP.md",
+    "20_选题/选题.md",
+    "20_选题/选题要求.md",
+    "20_选题/发布.md",
+    "30_创作内容/202611/20261112-戒掉这 5 个睡前习惯，我终于不失眠了.md",
+    "AGENTS.md",
+    "30_创作内容/202611/20261113-三十岁以后，我不再急着反驳别人.md.crswap",
+    "AGENTS.md.crswap",
+    "CLAUDE.md",
+    "归档/公众号-生活随笔SOP.md",
+    "未命名.md",
+    "归档",
+    "待用文章/素材.md",
+    "_assets/02_图库/20261028-1793200541671.jpg",
     "_assets/02_图库/20261021-1792591723473.png",
     "_assets/02_图库/20261013-1791902587547.png",
     "_assets/02_图库/20261013-1791900460337.png",
@@ -289,24 +291,12 @@
     "_assets/01_高质量模板/20261103-1793636199343.png",
     "_assets/01_高质量模板/20261103-1793636156686.png",
     "_assets/01_高质量模板/20261102-1793631267905.png",
-    "_assets/01_高质量模板/20261029-1793282617260.png",
-    "_assets/01_高质量模板/20261029-1793282584880.png",
-    "20_选题/选题要求.md",
-    "20_选题/选题.md",
-    "30_创作内容/202611/20261113-三十岁以后，我不再急着反驳别人.md",
     "30_创作内容/202611/20261102-困难就像羽毛球，拍回去就好.md",
-    "30_创作内容/202611/20261112-戒掉这 5 个睡前习惯，我终于不失眠了.md",
-    "未命名.md",
     "公众号写作SOP.md.crswap",
-    "20_选题/发布.md",
     "30_创作内容/202611/20261108-周末躺半天就愧疚？你不是在浪费时间.md",
-    "公众号写作SOP.md",
     "待用文章/未命名.md",
-    "待用文章/素材.md",
     "30_创作内容/202610/20261028-人到中年才懂：一个人对生活的掌控感，是从早上 6 点开始的.md",
     "30_创作内容/202611/20261108-顶层孩子从小练的，学校永远不教.md",
-    "30_创作内容/202611/20261108-绝大多数人在25到30岁，浪费了这辈子最值钱的五年.md",
-    "公众号-生活随笔SOP.md",
     "30_创作内容/202611/20261108-你举拍的那一刻，就赢了一半.md",
     "30_创作内容/202611/20261108-你不是不努力，是离信息太远了.md",
     "30_创作内容/202610/20261013-周末没事干，我看了一下午光.md",
@@ -314,18 +304,12 @@
     "30_创作内容/202610/20261013-一个人吃饭，也要认真摆好一双筷子.md",
     "30_创作内容/202610/20261013-书读完就忘？恭喜你，这才是读书真正的意义.md",
     "30_创作内容/202610/20261013-好消息来了，你为什么不敢高兴？.md",
-    "30_创作内容/202610/20261010-走慢一点，把这一天放下.md",
-    "30_创作内容/202610/20261010-后悔答应了，就好好说出口.md",
-    "30_创作内容/202610/20261008-想做的那件事，又搁了一年.md",
     "待用文章",
     "_assets/待用",
     "_assets/新建文件夹",
     "_assets/04_其它",
     "_assets/03_三视图",
     "_assets/02_图库",
-    "_assets/01_高质量模板",
-    "_assets/三视图",
-    "_assets/其它",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
