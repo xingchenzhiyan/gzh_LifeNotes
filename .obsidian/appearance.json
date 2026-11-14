@@ -3,5 +3,6 @@
   "theme": "system",
   "baseFontSize": 15,
   "baseFontSizeAction": true,
-  "accentColor": ""
+  "accentColor": "",
+  "showRibbon": true
 }
