@@ -7,12 +7,13 @@
   "enableAutoTitleGeneration": true,
   "titleGenerationLocale": "",
   "titleGenerationModel": "openai-codex/gpt-6-luna",
+  "showTabTitlesByDefault": true,
+  "chatFontScale": 100,
   "excludedTags": [],
   "mediaFolder": "",
   "systemPrompt": "",
   "sharedEnvironmentVariables": "",
   "envSnippets": [],
-  "customContextLimits": {},
   "keyboardNavigation": {
     "scrollUpKey": "w",
     "scrollDownKey": "s",
@@ -43,7 +44,6 @@
       "environmentVariables": "",
       "environmentHash": "",
       "selectedModels": [],
-      "sessionEnvironmentHash": "",
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {}
     },
@@ -64,8 +64,7 @@
       "responseVerbosity": "default",
       "reasoningSummary": "concise",
       "environmentVariables": "",
-      "environmentHash": "runtime-input:v1:ed54f4f5238abeec7f65a5da1e468c9a639e157a7d1c7753b53f54ba1196e8a0",
-      "sessionEnvironmentHash": "runtime-input:v1:cf4a613a63a895356fbc95544817979656506c93b9fb3fe1c76833522e1c19fc",
+      "environmentHash": "runtime-input:v1:197595abd9d745e24689d5a438700b7ac70840cea7d031da56b13d08e625dac5",
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {},
       "selectedModels": [
@@ -206,7 +205,6 @@
     "grok": {
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {},
-      "sessionEnvironmentHash": "",
       "cliPath": "",
       "cliPathsByHost": {},
       "enabled": false,
@@ -241,7 +239,6 @@
       "environmentVariables": "",
       "modelAliases": {},
       "preferredThinkingByModel": {},
-      "sessionEnvironmentHash": "",
       "visibleModels": [],
       "selectedModels": []
     },
@@ -268,7 +265,6 @@
       "environmentVariables": "",
       "modelAliases": {},
       "preferredReasoningByModel": {},
-      "sessionStoreHash": "",
       "visibleModels": [],
       "selectedModelsByHost": {}
     }
@@ -279,16 +275,18 @@
     "model": "openai-codex/group/deepseek-v4.1-flash"
   },
   "inlineEditModel": null,
-  "savedProviderModel": {},
-  "savedProviderEffort": {},
+  "savedProviderModel": {
+    "codex": "openai-codex/group/deepseek-v4.1-flash"
+  },
+  "savedProviderEffort": {
+    "codex": "high"
+  },
   "savedProviderServiceTier": {},
   "savedProviderPermissionMode": {
     "claude": "auto",
     "codex": "yolo"
   },
-  "pendingProviderSessionInvalidations": {},
   "enableAutoScroll": true,
-  "showMessageTimestamps": true,
   "deferMathRenderingDuringStreaming": true,
   "pluginRenderedFenceLanguages": [],
   "expandFileEditsByDefault": false,
